@@ -12,8 +12,11 @@ class Window(QMainWindow):
         self.setWindowTitle("Password Manager")
         self.show()
 
+class Set_password:
+    pass
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = Window()
+    window1 = Window()
     sys.exit(app.exec())
