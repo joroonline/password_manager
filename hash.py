@@ -27,4 +27,4 @@ def check_password(password: str, hash: str):
 if __name__ == "__main__":
     password = "hdaskhsahdk"
     hash = gen_password_hash(password)
-    print(check_password("hdaskhsahdl", hash))
+    print(check_password("hdaskhsahdk", hash))
